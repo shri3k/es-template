@@ -1,11 +1,10 @@
 # es-template
-ES6/2015 template strings for HTML
 ---
 A simple ES6/2015 template string-esque syntax for HTML.
 
 # Syntax:-
 ```js
-require('es-template')(<filename>|<filename.ext>,<values>, [options]);
+require('es-template')(<rootDir>[,<options>])(<filename>|<filename.ext>,<values> [,moreOptions]);
 ```
 
 ## Parameters:-
@@ -30,7 +29,7 @@ JSON object with user defined options (only takes `ext` as options right now)
 ```
 
 ```js
-var tmpl = require('es-template');
+var tmpl = require('es-template')();
 tmpl('index', {"test":"hello", "test2":"world"}).pipe(process.stdout);
 //Outputs:-
 // hello there world
