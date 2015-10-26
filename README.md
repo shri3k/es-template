@@ -4,10 +4,16 @@ A simple ES6/2015 template string-esque syntax for HTML.
 
 # Syntax:-
 ```js
-require('es-template')(<rootDir>[,<options>])(<filename>|<filename.ext>,<values> [,moreOptions]);
+require('es-template')([<rootDir>,<options>])(<filename>|<filename.ext>,<values> [,moreOptions]);
 ```
 
 ## Parameters:-
+**rootDir**
+Name of the directory where your templates resides if not provided path of `filename` is used instead
+
+**options**
+Similar to `rootDir`, you can also specify rootDir here as an object along with extension that your template is going to use. See `defaults/index.js` for all the available options
+
 **filename**  
 Name of your template file
 
