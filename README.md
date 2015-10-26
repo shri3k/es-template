@@ -1,4 +1,4 @@
-# es-template
+# es-template | [![Build Status](https://travis-ci.org/sinkingshriek/es-template.svg?branch=master)](https://travis-ci.org/sinkingshriek/es-template)
 ---
 A simple ES6/2015 template string-esque syntax for HTML.
 
