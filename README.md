@@ -17,7 +17,7 @@ JSON object with key as the variable name used in the filename and value as valu
 **options**  
 JSON object with user defined options (only takes `ext` as options right now)
 
-# Returns:-
+## Returns:-
 [Stream](https://nodejs.org/api/stream.html)
 
 # Usage:-
