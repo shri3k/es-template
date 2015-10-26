@@ -4,7 +4,8 @@
   "description": "A simple ES6/2015 template string-esque syntax for HTML.",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests/**/*.js"
+    "test": "tape tests/**/*.js",
+    "buildrc": "build"
   },
   "author": "Yojan Shrestha",
   "license": "MIT",
@@ -12,7 +13,12 @@
     "debug": "^2.2.0",
     "through2": "^2.0.0"
   },
+	"engines":{
+		"iojs":">=2.3.0",
+		"node":">=4.0.0"
+	},
   "devDependencies": {
+    "buildrc": "^1.0.3",
     "tape": "^4.2.1"
   }
 }
